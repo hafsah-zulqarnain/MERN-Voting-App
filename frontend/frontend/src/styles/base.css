@@ -1,0 +1,10 @@
+:root{
+    --danger: #ff8a88;
+    --green:#324220;
+    --light: #F7F5F7;
+    --hover: #8BA073;
+}
+
+body {
+    background-color: var(--light);
+}

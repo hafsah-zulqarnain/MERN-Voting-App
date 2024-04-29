@@ -1,0 +1,66 @@
+/* Apply styling to the navigation container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    position: fixed; /* Fix the position */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    width: 100%; /* Occupy full width */
+    height: 50px; /* Set the desired height */
+    padding: 0 20px; /* Add horizontal padding for spacing */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the navigation links */
+.navbar-brand {
+    color: var(--green);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    background-color: var(--hover);
+    color: var(--light);
+}
+
+/* Other styles... */
+/* Apply styling to the navigation container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    position: fixed; /* Fix the position */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    width: 100%; /* Occupy full width */
+    height: 50px; /* Set the desired height */
+    padding: 0 20px; /* Add horizontal padding for spacing */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the navigation links */
+.navbar-brand {
+    color: var(--green);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    background-color: var(--hover);
+    color: var(--light);
+}
+
+/* Other styles... */

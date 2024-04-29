@@ -1,0 +1,37 @@
+.navbar {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    align-self: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .Landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7 ;
+    position: absolute; /* Set the positioning mode */
+    top: 550px; /* Offset from the top */
+    left: 660px; /* Offset from the left */;
+  }
+  
+  .Landing-brand {
+    background-color: var(--light);
+    color: var(--green);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .Landing-brand:hover {
+    background-color: var(--hover);
+    color: var(--light);
+}

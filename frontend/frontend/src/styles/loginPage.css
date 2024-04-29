@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.stylish-heading {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--light);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.login-container {
+    background-color: var(--green);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-size: 120%;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+.Timer-container {
+    background-color: var(--green);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-size: 120%;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: absolute; /* Set the positioning mode */
+    top: 100px;
+    left: 500px
+}
+
+.Users-container {
+    background-color: var(--green);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-size: 120%;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: absolute; /* Set the positioning mode */
+    align-content: center;
+    top: 100px;
+    left: 550px;
+}
+
+.createPoll-container {
+    background-color: var(--green);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 200px
+}
+
+.login-header {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+.Time-header {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+.days {
+    font-size: 1.5rem;
+    color: var(--light);
+  }
+.hours, .minutes, .seconds {
+    font-size: 1.2rem;
+    color: var(--light);
+    margin-right: 0.5rem;
+  }
+.header {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+/* UserList.css */
+
+.user-item {
+    margin: 0.5rem 0; /* Add some margin between paragraphs */
+    font-size: 1rem; /* Adjust font size */
+    color: var(--light); /* Change text color */
+    background-color: var(--hover);
+    border-radius: 0.3rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 120%
+  }
+  
+.login-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--light);
+    border-radius: 0.3rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: var(--green);
+}
+
+.login-button {
+    background-color: var(--light);
+    color: var(--green);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    justify-self: center;
+}
+
+.login-button:hover {
+    background-color: var(--hover);
+    color: var(--light);
+}
